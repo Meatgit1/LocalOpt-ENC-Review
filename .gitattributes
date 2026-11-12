@@ -1,0 +1,20 @@
+# Preserve the exact bytes of the supplied and reviewed source.
+* -text
+
+# Preserve native records exactly; their CRLF and padding are part of the data.
+cases/** -whitespace
+# Matplotlib emits harmless spacing in generated SVG path commands.
+results/**/*.svg -whitespace
+
+# Treat generated PDFs as documents, not line-based source diffs.
+*.pdf binary
+
+# Windows launchers keep their native CRLF line endings.
+*.cmd whitespace=cr-at-eol
+
+# Keep reviewed native source bytes, including historical whitespace, unchanged.
+InTrance_modified/** -whitespace
+InTrance_original/** -whitespace
+
+# PowerShell launch files also keep Windows line endings.
+*.ps1 whitespace=cr-at-eol

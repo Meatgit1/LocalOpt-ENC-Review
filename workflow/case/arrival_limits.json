@@ -1,0 +1,21 @@
+{
+  "schema": "mission_objective_v2",
+  "definition": "validated_quality_then_minimum_time_v2",
+  "mode": "minimum_time_at_declared_quality",
+  "name": "earth_mercury_reference_quality_v1",
+  "position_target_m": 62990003.63941674,
+  "velocity_target_m_s": 63.027193526496035,
+  "position_nlp_reserve_m": 250.0,
+  "velocity_nlp_reserve_m_s": 0.0025,
+  "restoration_position_scale_m": 100000000.0,
+  "restoration_velocity_scale_m_s": 100.0,
+  "global_position_limit_m": 100000000.0,
+  "global_velocity_limit_m_s": 100.0,
+  "numerical_position_gate_m": 100.0,
+  "numerical_velocity_gate_m_s": 0.001,
+  "fine_mesh_position_gate_m": 1.0,
+  "fine_mesh_velocity_gate_m_s": 0.00001,
+  "reference_radius_m": 147145741004.37216,
+  "solar_mu_m3_s2": 1.32712440018e20,
+  "target_status": "measured_native_reference_quality_not_capture_requirement"
+}

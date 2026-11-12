@@ -1,0 +1,5 @@
+arm,seed,handover_target_evaluations,complete_trace_count,trace_count_is_final,flight_days,arrival_position_km,arrival_velocity_m_s,native_independent_position_difference_m,result
+early,11,200,200,true,585.5,62136.704219,61.406297165,0.23199,native_checks_passed_local_budget_could_not_admit_next_solve
+early,29,200,200,true,585.5,62136.704223,61.406297158,0.234007,native_checks_passed_local_budget_could_not_admit_next_solve
+deep,11,10000,4204,false,,,,,native_deadline_no_final_local_handover
+deep,29,10000,4136,false,,,,,native_deadline_no_final_local_handover

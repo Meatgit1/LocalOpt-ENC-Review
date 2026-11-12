@@ -1,0 +1,15 @@
+FILE_TYPE=InTrance 1.7 evolutionary algorithm parameter file // purpose of this file
+
+SEARCH_SPACE_HYPERCUBE_SIZE=1.0             // size of initial search space hypercube
+
+HYPERCUBE_SHRINKING_FACTOR=0.5              // hypercube shrinking factor
+
+POPULATION_SIZE=40                          // population size
+
+SEARCH_SCAN_EPOCHS=5                        // number of search space scan epochs
+
+FITNESS_FUNCTION_TYPE=J_and                 // fitness function type
+
+CHROMOSOME_MUTATION_PROBABILITY=0.8         // mutation probability per chromosome
+
+SELECTION_PRESSURE_ON_TIME=0.0              // selection pressure on transfer time

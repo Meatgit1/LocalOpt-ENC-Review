@@ -1,0 +1,4 @@
+FILE_TYPE=InTrance 1.7 spacecraft parameter file
+SC_TYPE=solar sail
+CHARACTERISTIC_ACCELERATION=0.55
+OPTICAL_SAIL_MODEL=ideal sail

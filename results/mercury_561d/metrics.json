@@ -1,0 +1,48 @@
+{
+  "setup": {
+    "departure_MJD": 52654.5,
+    "target": "Mercury",
+    "propulsion": "ideal solar sail",
+    "lightness": 0.09274704,
+    "native_seed": 1,
+    "native_returned_evaluations": 200,
+    "control_holds": 600
+  },
+  "candidate": {
+    "duration_days": 561.8857195909586,
+    "position_miss_km": 62989.7538701601,
+    "velocity_miss_m_s": 63.0246933026515
+  },
+  "reference": {
+    "duration_days": 576.0,
+    "position_miss_km": 62990.00363941674,
+    "velocity_miss_m_s": 63.027193526496035
+  },
+  "control_guard": {
+    "allowed_normal_step_deg": 8.747458584518919,
+    "max_normal_jump_deg": 8.747455877447317,
+    "hold_duration_days": 0.9364761993182643,
+    "physical_slew_certified": false
+  },
+  "numerical_comparison": {
+    "native_vs_continuous_rk4_256": {
+      "position_m": 0.3733971263419153,
+      "velocity_m_s": 2.2325324463153358e-07
+    },
+    "fine_rk4_128_vs256": {
+      "position_m": 0.12408342267896819,
+      "velocity_m_s": 9.126216811113522e-08
+    }
+  },
+  "recorded_run": {
+    "date": "2026-10-23",
+    "stop": "converged_inside_final_time_interval",
+    "final_time_interval_days": [
+      561.5,
+      569.5
+    ],
+    "total_wall_seconds": 580.6725426670164,
+    "clock_scope": "Includes startup waiting, local/native calculations, checks, report and cleanup. Excludes one-time installation and earlier preparation."
+  },
+  "interpretation": "Saved native-replayed ideal-sail result under reference-quality and command-change limits; no global optimum or actuator-slew claim."
+}

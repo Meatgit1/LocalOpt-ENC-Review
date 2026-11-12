@@ -1,0 +1,20 @@
+FILE_TYPE=InTrance 1.7 input file
+// Normal native search. The launcher provides sibling ../data in the run folder.
+DE405_DATA_FILE=../data/bin1600_600.405
+ASTEROID_DATA_FILE1=../data/ELEMENTS.UNNUM
+ASTEROID_DATA_FILE2=../data/ELEMENTS.NUMBR
+COMET_DATA_FILE=../data/ELEMENTS.COMET
+RANDOM_SEED=1
+COMMAND=optimize NC
+SIM_PARAM_FILE=mercury.sim
+SC_PARAM_FILE=mercury.scp
+NC_PARAM_FILE=mercury.ncp
+EA_PARAM_FILE=mercury.eap
+COLDSTART=yes
+SIM_DATA_FILE=mercury.csv
+TRAJ_DATA_FILE=mercury.dat
+GESOP_FILE=mercury.gesop.txt
+VRML_FILE=mercury.wrl
+CTRL_FILE=mercury.ctr
+BEST_CHROM_FILE=mercury.eac
+REPORT_FILE=mercury.rep
